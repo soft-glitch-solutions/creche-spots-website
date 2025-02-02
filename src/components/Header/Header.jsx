@@ -40,7 +40,7 @@ const Header = () => {
             className="flexCenter h-menu"
             style={getMenuStyles(menuOpened)}
           >
-            <NavLink to="https://crechespots.netlify.app/" target="_blank">
+            <NavLink to="https://portal.crechespots.co.za/" target="_blank">
               Creche Portal
             </NavLink>
             {/* add property */}
