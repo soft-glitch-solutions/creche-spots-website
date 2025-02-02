@@ -1,7 +1,7 @@
 # CrecheSpot
 
 To build the dist zip -r dist.zip dist/
-
+test
 
 Welcome to CrecheSpot! 
 
