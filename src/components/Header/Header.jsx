@@ -19,7 +19,7 @@ const Header = () => {
 
   // Function to navigate to the Creche Portal
   const handleLoginRedirect = () => {
-    window.location.href = "https://crechespot.netlify.app/"; // Direct link to Creche Portal
+    window.location.href = "https://online.crechespots.co.za/"; // Direct link to Creche Portal
   };
 
   return (

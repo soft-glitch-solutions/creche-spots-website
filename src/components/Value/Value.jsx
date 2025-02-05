@@ -51,7 +51,7 @@ const Value = () => {
           <br />
           <div className="download-buttons">
             <a
-              href="https://crechespot.netlify.app/"
+              href="https://online.crechespots.co.za/"
               target="_blank"
               rel="noopener noreferrer"
               className="download-btn"
@@ -59,7 +59,7 @@ const Value = () => {
               <img src={googlePlayIcon} alt="Download on Google Play" className="download-icon" />
             </a>
             <a
-              href="https://crechespot.netlify.app/"
+              href="https://online.crechespots.co.za/"
               target="_blank"
               rel="noopener noreferrer"
               className="download-btn"
