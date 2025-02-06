@@ -44,9 +44,6 @@ const Header = () => {
               Creche Portal
             </NavLink>
             {/* add property */}
-            <div onClick={handleAddPropertyClick}>Add Creche</div>
-            <AddPropertyModal opened={modalOpened} setOpened={setModalOpened} />
-
             {/* login / sign up button */}
             <button className="button" onClick={handleLoginRedirect}>
               Login / Sign Up
