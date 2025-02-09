@@ -16,6 +16,7 @@
 .about-us-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
   font-family: 'MoreSugar', sans-serif;
   background-color: #f4fcfe;
 }
