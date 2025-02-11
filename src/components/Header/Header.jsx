@@ -40,11 +40,14 @@ const Header = () => {
             <NavLink to="https://portal.crechespots.co.za/" target="_blank">
               Creche Portal
             </NavLink>
+            <NavLink to="/price" >
+              Pricing
+            </NavLink>
+            <NavLink to="https://online.crechespots.co.za/" target="_blank">
+              Parent App
+            </NavLink>
             {/* add property */}
             {/* login / sign up button */}
-            <button className="button" onClick={handleLoginRedirect}>
-              Login / Sign Up
-            </button>
             
             {/* Try Demo Button */}
             <a href="https://demo.crechespots.co.za/" target="_blank" rel="noopener noreferrer">
