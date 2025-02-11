@@ -3,7 +3,7 @@ import "./App.css";
 import Layout from "./components/Layout/Layout";
 import Website from "./pages/Website";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Properties from "./pages/Properties/Properties";
+import Price from "./pages/Properties/Price";
 import Property from "./pages/Property/Property";
 import ContactPage from "./pages/Contact/ContactPage";
 import Bookings from "./pages/Bookings/Bookings";
@@ -41,9 +41,8 @@ function App() {
                 <Route element={<Layout />}>
                   {/* Add conditional redirect here */}
                   <Route path="/" element={<Website />} />
-                  <Route path="/properties">
-                    <Route index element={<Properties />} />
-                    <Route path=":propertyId" element={<Property />} />
+                  <Route path="/price">
+                    <Route index element={<Price />} />
                   </Route>
                   <Route path="/contact" element={<ContactPage />} />
                   <Route path="/bookings" element={<Bookings />} />

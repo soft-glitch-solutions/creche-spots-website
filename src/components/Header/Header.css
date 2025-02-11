@@ -21,6 +21,43 @@
   display: none;
 }
 
+.rainbow-button {
+  background-image: linear-gradient(
+    90deg,
+    #f68484,
+    #9cdbc8,
+    #84a7f6,
+    #f6cc84,
+    #bd84f6,
+    #f684a3
+  );
+  background-size: 300% 100%;
+  animation: rainbow 4s infinite linear;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.rainbow-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes rainbow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+
 @media (max-width: 768px) {
   .menu-icon {
     display: block;

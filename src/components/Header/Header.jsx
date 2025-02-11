@@ -19,7 +19,7 @@ const Header = () => {
 
   // Function to navigate to the Creche Portal
   const handleLoginRedirect = () => {
-    window.location.href = "https://online.crechespots.co.za/"; // Direct link to Creche Portal
+    window.location.href = "https://online.crechespots.co.za/";
   };
 
   return (
@@ -36,10 +36,7 @@ const Header = () => {
             setMenuOpened(false);
           }}
         >
-          <div
-            className="flexCenter h-menu"
-            style={getMenuStyles(menuOpened)}
-          >
+          <div className="flexCenter h-menu" style={getMenuStyles(menuOpened)}>
             <NavLink to="https://portal.crechespots.co.za/" target="_blank">
               Creche Portal
             </NavLink>
@@ -48,17 +45,16 @@ const Header = () => {
             <button className="button" onClick={handleLoginRedirect}>
               Login / Sign Up
             </button>
-
-            {/* If user is logged in, show profile menu */}
-            {/* Add your authenticated logic here if necessary */}
+            
+            {/* Try Demo Button */}
+            <a href="https://demo.crechespots.co.za/" target="_blank" rel="noopener noreferrer">
+              <button className="button rainbow-button">Try Demo</button>
+            </a>
           </div>
         </OutsideClickHandler>
 
         {/* for medium and small screens */}
-        <div
-          className="menu-icon"
-          onClick={() => setMenuOpened((prev) => !prev)}
-        >
+        <div className="menu-icon" onClick={() => setMenuOpened((prev) => !prev)}>
           <BiMenuAltRight size={30} />
         </div>
       </div>

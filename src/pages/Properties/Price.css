@@ -1,0 +1,116 @@
+.price-wrapper {
+    padding: 4rem 2rem;
+    background: #f4fcfe;
+    text-align: center;
+  }
+  
+  .price-header {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+    font-weight: bold;
+  }
+  
+  .price-cards {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .price-card {
+    border-radius: 12px;
+    padding: 2rem;
+    width: 320px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .price-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Free Forever Plan - White inside, Rainbow border */
+  .free-plan {
+    background: white;
+    color: #333;
+    border: 4px solid transparent;
+    border-image: linear-gradient(
+      90deg,
+      #f68484,
+      #9cdbc8,
+      #84a7f6,
+      #f6cc84,
+      #bd84f6,
+      #f684a3
+    ) 1;
+  }
+  
+  /* Basic Plan - Solid light blue */
+  .basic-plan {
+    background: #84a7f6;
+  }
+  
+  /* Pro Plan - Solid purple */
+  .pro-plan {
+    background: #bd84f6;
+  }
+  
+  .plan-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .plan-price {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .plan-features {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .feature-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  
+  .feature-icon {
+    color: #4caf50;
+    font-size: 1.2rem;
+  }
+  
+  /* CTA Buttons */
+  .plan-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background: white;
+    color: #333;
+    font-weight: bold;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .plan-button:hover {
+    background: #333;
+    color: white;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .price-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+   
