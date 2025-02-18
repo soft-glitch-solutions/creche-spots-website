@@ -33,9 +33,6 @@ const Header = () => {
               Pricing
             </NavLink>
 
-            <NavLink to="https://online.crechespots.co.za/" target="_blank" rel="noopener noreferrer">
-              Parent App <BiLinkExternal size={16} />
-            </NavLink>
 
 
             {/* Try Demo Button */}
