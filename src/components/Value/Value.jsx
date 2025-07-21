@@ -46,7 +46,7 @@ const Value = () => {
         {/* Left side */}
         <div className="flexColStart v-left">
           <h1 className="download-title" style={{ color: "#3a5dc4" }}>
-            Download the app!
+            Download the app Now!
           </h1>
           <br />
           <div className="download-buttons">
